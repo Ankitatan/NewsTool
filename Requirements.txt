@@ -1,0 +1,8 @@
+Requirements Txt
+
+streamlit==1.25.0
+langchain==0.1.0
+openai==0.27.0
+newsapi-python==0.2.6
+pandas==2.1.0
+requests==2.31.0
