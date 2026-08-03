@@ -105,7 +105,7 @@ AI-News-Research-Tool/
 
 🚀 Getting Started
 Clone the Repository
-git clone https://github.com/Ankitatan/AI-News-Research-Tool.git
+git clone https://github.com/Ankitatan/NewsTool
 cd AI-News-Research-Tool
 Install Dependencies
 pip install -r requirements.txt
