@@ -154,7 +154,9 @@ Ankita Taneja
 Aspiring Data Analyst | Data Scientist | AI & Business Intelligence Enthusiast
 
 🔗 GitHub: https://github.com/Ankitatan
+
 💼 LinkedIn: https://www.linkedin.com/in/ankita-taneja-390613396/
+
 ⭐ Support
 
 If you found this project useful, consider giving the repository a ⭐ Star. Your support helps improve the project and makes it easier for others to discover it.
