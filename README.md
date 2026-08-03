@@ -85,30 +85,53 @@ Sentiment analysis helps identify public perception around trending topics.
 Interactive dashboards improve exploration of news sources and publication patterns.
 Topic-based filtering enables focused monitoring of industries, companies, or global events.
 
+
 📂 Repository Structure
+
 AI-News-Research-Tool/
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── utils/
+
 │   ├── summarizer.py
+
 │   ├── sentiment.py
+
 │   ├── news_fetcher.py
+
 │   └── helpers.py
+
 │
+
 ├── assets/
+
 │   ├── logo.png
+
 │   └── screenshots/
+
 │
+
 └── config.py
+
 
 🚀 Getting Started
 Clone the Repository
+
 git clone https://github.com/Ankitatan/NewsTool
+
 cd AI-News-Research-Tool
+
 Install Dependencies
+
 pip install -r requirements.txt
+
 Configure API Keys
 
 Create a .env file and add your credentials:
