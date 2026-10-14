@@ -127,7 +127,7 @@ GitHub: [Ankitatan](https://github.com/Ankitatan)
 
 LinkedIn: [Ankita Taneja](https://www.linkedin.com/in/ankita-taneja-390613396/)
 
-www.gaiverse.com
+www.gaiverse.in
 
 ## 📄 License
 
