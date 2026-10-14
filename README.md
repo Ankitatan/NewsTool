@@ -26,7 +26,6 @@ The project combines Python-based data processing with language-model capabiliti
 - **Interactive Dashboard:** Present news-related information in a visual interface.
 - **Data Exploration:** Support structured exploration of news content and related information.
 
-*Note: The features above reflect the project's documented functionality. Confirm each feature against the current application before presenting it as fully implemented.*
 
 ## 🛠️ Technology Stack
 
