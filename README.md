@@ -1,185 +1,134 @@
-# NewsTool
-LLM News Research Tool
+# 📰 AI-Powered News Research Tool
 
-📰 AI News Research & Summarization Tool
+An AI-powered news research application designed to help users explore news articles, generate concise summaries, analyze sentiment, and discover insights through an interactive dashboard.
 
-Python • Streamlit • OpenAI • NewsAPI • NLP • Data Visualization
+**Technology:** Python · Streamlit · LangChain · OpenAI API · NewsAPI · NLP · Data Visualization
 
-An AI-powered news intelligence application that aggregates the latest news articles, generates concise summaries, performs sentiment analysis, and visualizes news trends through an interactive Streamlit dashboard. The tool enables users to quickly understand current events without reading multiple lengthy articles.
+## 📌 Project Overview
 
-📌 Project Overview
+Keeping up with news across multiple sources can be time-consuming. The AI-Powered News Research Tool aims to simplify news research by bringing news retrieval, text summarization, sentiment analysis, and visual exploration into one application.
 
-With the rapid growth of online news, keeping up with current events can be overwhelming. This project simplifies news consumption by collecting articles from trusted news sources, summarizing key information using AI, analyzing sentiment, and presenting insights through an intuitive dashboard.
+The project combines Python-based data processing with language-model capabilities and an interactive Streamlit interface to support faster, more structured news analysis.
 
-The application combines real-time news retrieval with Natural Language Processing (NLP) techniques to deliver meaningful, data-driven insights for researchers, analysts, and general readers.
+## 🎯 Project Objectives
 
-🎯 Objectives
-Retrieve the latest news articles based on user-defined topics.
-Generate concise AI-powered summaries.
-Perform sentiment analysis on news articles.
-Visualize news trends and source distribution.
-Enable efficient exploration of current events through an interactive dashboard.
+- Retrieve news articles based on relevant topics or keywords.
+- Generate concise summaries to make news easier to understand.
+- Analyze the sentiment expressed in news content.
+- Explore news sources and publication trends through visualizations.
+- Provide an accessible interface for news research and analysis.
 
-🛠️ Technology Stack
-Category	Tools
-Programming	Python
-Framework	Streamlit
-AI/NLP	OpenAI API / Transformers
-News API	NewsAPI
-Data Processing	Pandas
-Visualization	Plotly, Matplotlib
-HTTP Requests	Requests
-Environment	Python Virtual Environment
+## ✨ Key Features
 
-✨ Features
-🔎 Search news by keyword or topic
-📰 Fetch real-time news articles
-🤖 AI-generated article summaries
-😊 Sentiment analysis (Positive, Neutral, Negative)
-📈 Interactive visualizations
-📅 Filter by publication date
-🌍 News source comparison
-🔗 Direct links to original articles
-⚡ Fast and responsive Streamlit interface
+- **News Research:** Explore articles related to selected topics.
+- **AI-Powered Summarization:** Condense lengthy news content into shorter summaries.
+- **Sentiment Analysis:** Examine news content for positive, neutral, or negative sentiment.
+- **Interactive Dashboard:** Present news-related information in a visual interface.
+- **Data Exploration:** Support structured exploration of news content and related information.
 
-📊 Dashboard Modules
-🏠 Home
-Application overview
-Trending news topics
-Dashboard navigation
-🔎 News Search
-Search by keyword
-Country/category filtering
-Real-time news retrieval
-🤖 AI Summarization
-One-click article summarization
-Key highlights extraction
-Read-time reduction
-😊 Sentiment Analysis
-Positive, Neutral, and Negative sentiment distribution
-Article-wise sentiment classification
-Overall news mood
-📈 Analytics Dashboard
-Top news sources
-Publication trends
-Category distribution
-Interactive charts
+*Note: The features above reflect the project's documented functionality. Confirm each feature against the current application before presenting it as fully implemented.*
 
-💼 Business Use Cases
-Media Monitoring
-Track breaking news across multiple sources.
-Monitor brand mentions and public opinion.
-Market Intelligence
-Analyze industry-specific news.
-Support investment and business decisions.
-Research & Education
-Summarize large volumes of news.
-Assist students and researchers with current affairs.
-Decision Support
-Identify emerging trends.
-Monitor geopolitical and economic developments.
+## 🛠️ Technology Stack
 
-📈 Key Insights
-AI-generated summaries significantly reduce reading time while preserving essential information.
-Sentiment analysis helps identify public perception around trending topics.
-Interactive dashboards improve exploration of news sources and publication patterns.
-Topic-based filtering enables focused monitoring of industries, companies, or global events.
+| Component | Technology |
+|---|---|
+| Programming language | Python |
+| User interface | Streamlit |
+| Language-model integration | LangChain / OpenAI API |
+| News retrieval | NewsAPI |
+| Data processing | Pandas |
+| Data visualization | Plotly / Matplotlib |
+| API communication | Requests |
+| Text analysis | NLP techniques |
 
+## ⚙️ Installation and Setup
 
-📂 Repository Structure
+### 1. Clone the repository
 
-AI-News-Research-Tool/
+```bash
+git clone https://github.com/Ankitatan/NewsTool.git
+cd NewsTool
+```
 
-│
+### 2. Set up a virtual environment
 
-├── app.py
+```bash
+python -m venv venv
+```
 
-├── requirements.txt
+Activate it on Windows:
 
-├── README.md
+```bash
+venv\Scripts\activate
+```
 
-├── utils/
+On macOS or Linux:
 
-│   ├── summarizer.py
+```bash
+source venv/bin/activate
+```
 
-│   ├── sentiment.py
+### 3. Install dependencies
 
-│   ├── news_fetcher.py
+```bash
+pip install -r Requirements.txt
+```
 
-│   └── helpers.py
+### 4. Configure API credentials
 
-│
+Identify the API keys required by the application and configure them using environment variables or the configuration method supported by the code.
 
-├── assets/
+Do not commit API keys, passwords, or other secrets to GitHub.
 
-│   ├── logo.png
+### 5. Run the application
 
-│   └── screenshots/
+Check the repository for the correct Streamlit entry-point filename, then run:
 
-│
+```bash
+streamlit run News4Copy1.py
+```
 
-└── config.py
+If your main application file has a different name, replace `News4Copy1.py` with the correct filename.
 
+## 💡 Potential Use Cases
 
-🚀 Getting Started
-Clone the Repository
+- **News Monitoring:** Explore coverage of current events and selected topics.
+- **Business Research:** Review news relevant to companies, industries, and markets.
+- **Academic Research:** Organize news content for research and learning.
+- **Media Analysis:** Examine news content and sentiment patterns.
 
-git clone https://github.com/Ankitatan/NewsTool
+These are potential applications of the project, not claims of validated business outcomes.
 
-cd AI-News-Research-Tool
+## 🧠 Skills Demonstrated
 
-Install Dependencies
+- Python programming
+- API integration
+- Working with language-model tools
+- Natural Language Processing fundamentals
+- Text summarization and sentiment analysis
+- Interactive dashboard development
+- Data processing and visualization
+- Application configuration and documentation
 
-pip install -r requirements.txt
+## 🚀 Future Improvements
 
-Configure API Keys
+- Add topic clustering and keyword extraction.
+- Support multilingual news analysis.
+- Enable downloadable research reports.
+- Improve historical trend analysis.
+- Add robust error handling and API usage monitoring.
+- Deploy the application to a public hosting platform.
 
-Create a .env file and add your credentials:
+## 👩‍💻 Author
 
-NEWS_API_KEY=your_newsapi_key
-OPENAI_API_KEY=your_openai_api_key
-Run the Application
-streamlit run app.py
+**Ankita Taneja**
 
-📸 Dashboard Preview
+GitHub: [Ankitatan](https://github.com/Ankitatan)
 
-Add screenshots of your application here.
+LinkedIn: [Ankita Taneja](https://www.linkedin.com/in/ankita-taneja-390613396/)
 
-Example:
+www.gaiverse.com
 
-assets/screenshots/home.png
-assets/screenshots/news_search.png
-assets/screenshots/sentiment_dashboard.png
+## 📄 License
 
-🧠 Skills Demonstrated
-Natural Language Processing (NLP)
-API Integration
-AI-Based Text Summarization
-Sentiment Analysis
-Streamlit Development
-Data Visualization
-Python Programming
-REST API Integration
-Dashboard Development
-Data Storytelling
-
-🔮 Future Enhancements
-Support multiple languages.
-Add topic clustering and keyword extraction.
-Integrate financial and stock market news.
-Generate downloadable PDF reports.
-Deploy the application on Streamlit Community Cloud.
-Add historical trend analysis and user authentication.
-👩‍💻 Author
-
-Ankita Taneja
-
-Aspiring Data Analyst | Data Scientist | AI & Business Intelligence Enthusiast
-
-🔗 GitHub: https://github.com/Ankitatan
-
-💼 LinkedIn: https://www.linkedin.com/in/ankita-taneja-390613396/
-
-⭐ Support
-
-If you found this project useful, consider giving the repository a ⭐ Star. Your support helps improve the project and makes it easier for others to discover it.
+This project is distributed under the MIT License. See the `LICENSE` file for details.
